@@ -1,4 +1,5 @@
 #!/bin/sh
 pushd ~/.dotfiles
-home-manager switch -f ./users/luca/home.nix
+nix build .#homeManagerConfigurations.luca.activationPackage
+./result/activate
 popd
