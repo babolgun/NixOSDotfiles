@@ -37,7 +37,7 @@ in {
   theKBDVariant = "altgr-intl";
   theLCVariables = "en_US.UTF-8";
   theTimezone = "Europe/Berlin";
-  theShell = "zsh"; # Available options: bash, zsh 
+  theShell = "bash"; # Available options: bash, zsh 
   theKernel = "default"; # Available options: default, latest, lqx, xanmod, zen
   sdl-videodriver = "x11"; # Either x11 or wayland ONLY. Games might require x11
 

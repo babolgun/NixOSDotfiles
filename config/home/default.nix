@@ -14,6 +14,7 @@
     ./swaylock.nix
     ./swaync.nix
     ./waybar.nix
+    ./wlogout.nix
     ./zsh.nix
   ];
 }
