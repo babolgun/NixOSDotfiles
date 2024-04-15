@@ -10,6 +10,9 @@
     ./packages.nix
     ./rofi.nix
     ./starship.nix
+    ./swappy.nix
+    ./swaylock.nix
+    ./swaync.nix
     ./zsh.nix
   ];
 }
