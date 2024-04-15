@@ -13,6 +13,7 @@
     ./swappy.nix
     ./swaylock.nix
     ./swaync.nix
+    ./waybar.nix
     ./zsh.nix
   ];
 }

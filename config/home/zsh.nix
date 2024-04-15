@@ -1,4 +1,4 @@
-{config, lib, pkgs, host, ... }:
+{ lib, host, ... }:
 let inherit (import ../../hosts/${host}/options.nix) flakeDir theShell hostname;
 in lib.mkIf (theShell == "zsh") {
   programs.zsh = {
