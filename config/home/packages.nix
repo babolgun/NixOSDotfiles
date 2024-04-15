@@ -6,7 +6,7 @@ in {
   # Omitted: discord(chat), transmission-gtk(bit-torrent), obs-studio(videorecording), protonup-qt, spotify
   home.packages = with pkgs; [     
     pkgs."${browser}" libvirt swww grim slurp gnome.file-roller
-    swaynotificationcenter rofi-wayland imv mpv gimp rustup 
+    swaynotificationcenter rofi-wayland imv mpv gimp rustup thunar
     audacity pavucontrol tree font-awesome swayidle neovide swaylock
     (nerdfonts.override { fonts = ["JetBrainsMono"]; })
     # Import scripts
