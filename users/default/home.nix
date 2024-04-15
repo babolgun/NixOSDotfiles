@@ -20,7 +20,7 @@ in {
 
   # Define Settings for Xresources
   xresources.properties = {
-    "Xcursor.size" = 16;
+    "Xcursor.size" = 24;
   };
 
   # Install & Configure Git
