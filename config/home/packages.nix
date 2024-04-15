@@ -8,7 +8,7 @@ in {
     pkgs."${browser}" libvirt swww grim slurp gnome.file-roller
     swaynotificationcenter rofi-wayland imv mpv gimp rustup 
     audacity pavucontrol tree font-awesome swayidle neovide swaylock
-    (nerdfonts.override { fonts = ["CascadiaCove"]; })
+    (nerdfonts.override { fonts = ["JetBrainsMono"]; })
     # Import scripts
     (import ./../scripts/emopicker9000.nix { inherit pkgs; })
     (import ./../scripts/task-waybar.nix { inherit pkgs; })
