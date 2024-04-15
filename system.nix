@@ -1,12 +1,8 @@
-{ inputs, config, pkgs, 
-  username, hostname, host, ... }:
+{ pkgs, hostname, host, ... }:
 
 let 
   inherit (import ./hosts/${host}/options.nix)
-    theLocale theTimezone gitUsername 
-    theShell wallpaperDir wallpaperGit 
-    theLCVariables theKBDLayout flakeDir 
-    theme;
+    theLocale theTimezone theLCVariables theKBDLayout flakeDir;
 in {
   imports = [
     ./hosts/${host}/hardware.nix
@@ -19,7 +15,7 @@ in {
   networking.networkmanager.enable = true;
 
   # Set up your time zone
-  time.Timezone = "${theTimezone}";
+  time.timeZone = "${theTimezone}";
 
   # Select internationalization properties
   i18n.defaultLocale = "${theLocale}";
