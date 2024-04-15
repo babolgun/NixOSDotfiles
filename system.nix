@@ -15,7 +15,7 @@ in {
   ];
 
   # Enable networking
-  networking.hostname = "${hostname}";
+  networking.hostName = "${hostname}";
   networking.networkmanager.enable = true;
 
   # Set up your time zone
