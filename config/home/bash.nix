@@ -1,11 +1,10 @@
-{config, lib, pkgs, host, ... }:
-let inherit (import ../../hosts/${host}/options.nix) flakeDir flakePrev
+{ lib, host, ... }:
+let inherit (import ../../hosts/${host}/options.nix) flakePrev
              flakeBackup theShell hostname;
 in lib.mkIf (theShell == "bash") {
   programs.bash = {
     enable = true;
     enableCompletion = true;
-    historySubstringSearch.enable = true;
     profileExtra = ''
       #if [ z "$DISPLAY" ] && [ "$XDG_VNTR" = 1 ]; then
       # exec Hyprland
