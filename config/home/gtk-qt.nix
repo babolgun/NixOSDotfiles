@@ -40,7 +40,7 @@
     platformTheme = "gtk";
     style = {
       name = "adawaita-dark";
-      package = pkgs.adawaita-qt;
+      package = pkgs.adawaita-qt6;
     };
   };
 }
