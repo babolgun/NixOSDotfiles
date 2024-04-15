@@ -50,7 +50,7 @@
               inherit host;
               inherit (inputs.nix-colors.lib-contrib {inherit pkgs;}) gtkThemeFromScheme;
             };
-            home-manager.useUserPkgs = true;
+            home-manager.useUserPackages = true;
             home-manager.useGlobalPkgs = true;
             home-manager.backupFileExtension = "bkp";
             home-manager.users.${username} = import .users/default/home.nix;
