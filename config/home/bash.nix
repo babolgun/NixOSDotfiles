@@ -12,7 +12,7 @@ in lib.mkIf (theShell == "bash") {
     '';
     initExtra = ''
       neofetch
-      if [ -f $HOME/.bashrc]; then
+      if [ -f $HOME/.bashrc ]; then
         source $HOME/.bashrc
       fi
     '';
