@@ -8,6 +8,8 @@
     ./kitty.nix
     ./neovim.nix
     ./packages.nix
+    ./rofi.nix
+    ./starship.nix
     ./zsh.nix
   ];
 }
