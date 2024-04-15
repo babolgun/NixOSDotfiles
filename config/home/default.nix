@@ -16,5 +16,7 @@
     ./waybar.nix
     ./wlogout.nix
     ./zsh.nix
+    # files
+    ./files.nix
   ];
 }
