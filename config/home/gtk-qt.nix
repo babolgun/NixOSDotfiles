@@ -39,8 +39,8 @@
     enable = true;
     platformTheme = "gtk";
     style = {
-      name = "adawaita-dark";
-      package = pkgs.adawaita-qt6;
+      name = "adwaita-dark";
+      package = pkgs.adwaita-qt;
     };
   };
 }
