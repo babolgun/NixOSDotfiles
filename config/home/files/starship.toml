@@ -3,15 +3,15 @@
 [username]
 format = " [╭─$user]($style)@"
 show_always = true
-style_root = "bold red"
-style_user = "bold red"
+style_root = "bold green"
+style_user = "bold green"
 
 # Second param
 [hostname]
 disabled = false
 format = "[$hostname]($style) in "
 ssh_only = false
-style = "bold dimmed red"
+style = "bold dimmed green"
 # If enabled hostnames with dashes will be cut off  ##
 #trim_at = "-"
 
