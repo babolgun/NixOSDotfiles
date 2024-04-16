@@ -8,6 +8,7 @@ in {
     pkgs."${browser}" libvirt swww grim slurp gnome.file-roller lunarvim
     swaynotificationcenter rofi-wayland imv mpv gimp rustup xfce.thunar
     audacity pavucontrol tree font-awesome swayidle neovide swaylock
+    git-credential-manager
     (nerdfonts.override { fonts = ["JetBrainsMono"]; })
     # Import scripts
     (import ./../scripts/emopicker9000.nix { inherit pkgs; })

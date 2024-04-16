@@ -11,7 +11,7 @@ style_user = "bold green"
 disabled = false
 format = "[$hostname]($style) in "
 ssh_only = false
-style = "bold dimmed green"
+style = "bold grey"
 # If enabled hostnames with dashes will be cut off  ##
 #trim_at = "-"
 
