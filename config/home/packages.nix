@@ -5,7 +5,7 @@ in {
   # Install Packages For the User
   # Omitted: discord(chat), transmission-gtk(bit-torrent), obs-studio(videorecording), protonup-qt, spotify
   home.packages = with pkgs; [     
-    pkgs."${browser}" libvirt swww grim slurp gnome.file-roller
+    pkgs."${browser}" libvirt swww grim slurp gnome.file-roller lunarvim
     swaynotificationcenter rofi-wayland imv mpv gimp rustup xfce.thunar
     audacity pavucontrol tree font-awesome swayidle neovide swaylock
     (nerdfonts.override { fonts = ["JetBrainsMono"]; })

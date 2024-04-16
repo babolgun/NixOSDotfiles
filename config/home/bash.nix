@@ -26,7 +26,7 @@ in lib.mkIf (theShell == "bash") {
       flake-rebuild="nh os switch --hostname ${hostname}";
       flake-update="nh os switch --hostname ${hostname} --update";
       gcCleanup="nix-collect-garbage --delete-old && sudo nix-collect-garbage -d && sudo /run/current-system/bin/switch-to-configuration boot";
-      v="nvim";
+      vi="lvim";
       ls="lsd";
       ll="lsd -a";
       lal="lsd -al";
