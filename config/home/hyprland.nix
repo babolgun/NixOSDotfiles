@@ -34,9 +34,9 @@ in with lib; {
       }
 
       input {
-        kb_layout = ${theKBDLayout}, ${theSecondKBDLayout}
-	      kb_options = grp:alt_shift_toggle
-        kb_options=caps:super
+        kb_layout = ${theKBDLayout}
+	      kb_variant = altgr-intl
+        kb_options = 
         follow_mouse = 1
         touchpad {
           natural_scroll = false
