@@ -28,7 +28,7 @@
     mtr.enable = true;
     gnupg.agent = {
       enable = true;
-      enableSSHSupport = false;
+      enableSSHSupport = true;
     };
     virt-manager.enable = true;
   };
