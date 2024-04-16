@@ -123,8 +123,8 @@ in with lib; {
       master {
         new_is_master = true
       }
-      bind = ${modifier},Return,exec,${terminal}
-      bind = ${modifier}SHIFT,Return,exec,rofi-launcher
+      bind = ${modifier},T,exec,${terminal}
+      bind = ${modifier},R,exec,rofi-launcher
       bind = ${modifier}SHIFT,W,exec,web-search
       bind = ${modifier}SHIFT,N,exec,swaync-client -rs
       ${if browser == "google-chrome" then ''
@@ -134,12 +134,12 @@ in with lib; {
       ''}
       bind = ${modifier},E,exec,emopicker9000
       bind = ${modifier},S,exec,screenshootin
-      bind = ${modifier},D,exec,discord
-      bind = ${modifier},O,exec,obs
+      #      bind = ${modifier},D,exec,discord
+      #      bind = ${modifier},O,exec,obs
       bind = ${modifier},G,exec,gimp
-      bind = ${modifier}SHIFT,G,exec,godot4
-      bind = ${modifier},T,exec,thunar
-      bind = ${modifier},M,exec,spotify
+      #      bind = ${modifier}SHIFT,G,exec,godot4
+      bind = ${modifier},Return,exec,thunar
+      #      bind = ${modifier},M,exec,spotify
       bind = ${modifier},Q,killactive,
       bind = ${modifier},P,pseudo,
       bind = ${modifier}SHIFT,I,togglesplit,

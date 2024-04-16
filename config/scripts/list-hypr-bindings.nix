@@ -15,20 +15,17 @@ pkgs.writeShellScriptBin "list-hypr-bindings" ''
   --column=Command: \
   --timeout=90 \
   --timeout-indicator=right \
-  " = Windows/Super/CAPS LOCK" "Modifier Key, used for keybindings" "Doesn't really execute anything by itself." \
-  " + ENTER" "Terminal" "${terminal}" \
-  " + SHIFT + ENTER" "Rofi App Launcher" "rofi -show drun" \
+  " = Windows/Super" "Modifier Key, used for keybindings" "Doesn't really execute anything by itself." \
+  " + T" "Terminal" "${terminal}" \
+  " + R" "Rofi App Launcher" "rofi -show drun" \
   " + Q" "Kill Focused Window" "killactive" \
   " + SHIFT + W" "Search Websites Like Nix Packages" "web-search" \
   " + SHIFT + N" "Reload SwayNC Styling" "swaync-client -rs" \
   " + W" "Launch Web Browser" "${browser}" \
   " + E" "Launch Emoji Selector" "emopicker9000" \
   " + S" "Take Screenshot" "screenshootin" \
-  " + D" "Launch Discord" "discord" \
-  " + O" "Launch OBS" "obs" \
   " + G" "Launch GIMP" "gimp" \
-  " + N" "Launch New File Browser Window" "thunar" \
-  " + M" "Launch Spotify" "spotify" \
+  " + ENTER" "Launch New File Browser Window" "thunar" \
   " + P" "Pseudo Tiling" "pseudo" \
   " + SHIFT + I" "Toggle Split Direction" "togglesplit" \
   " + F" "Toggle Focused Fullscreen" "fullscreen" \
