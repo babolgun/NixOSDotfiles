@@ -6,17 +6,50 @@
 
   # List System Programs -- I omitted: unrar v4l-utils 
   environment.systemPackages = with pkgs; [
-    wget curl git cmatrix lolcat neofetch htop btop libvirt
-    polkit_gnome lm_sensors unzip libnotify eza
-    ydotool wl-clipboard socat cowsay lsd lshw
-    pkg-config meson hugo gnumake ninja go nodejs symbola
-    noto-fonts-color-emoji material-icons brightnessctl
-    toybox virt-viewer swappy ripgrep appimage-run
-    networkmanagerapplet yad playerctl nh
+    appimage-run
+    brightnessctl
+    btop 
+    cmatrix 
+    cowsay 
+    curl 
+    eza
+    git 
+    gnumake 
+    go 
+    htop 
+    hugo 
+    libnotify 
+    libvirt
+    lm_sensors 
+    lolcat 
+    lsd 
+    lshw
+    lunarvim 
+    material-icons 
+    meson 
+    neofetch 
+    networkmanagerapplet 
+    nh
+    ninja 
+    nodejs 
+    noto-fonts-color-emoji 
+    pkg-config 
+    playerctl 
+    polkit_gnome 
+    ripgrep 
+    socat 
+    symbola
+    toybox 
+    unzip 
+    virt-viewer swappy 
+    wget 
+    wl-clipboard 
+    yad 
+    ydotool 
   ];
 
   programs = {
-    steam.gamescopeSession.enable = false; # I will not install Steam at the beginning 
+    steam.gamescopeSession.enable = false; # I will not install Steam at first 
     dconf.enable = true;
     seahorse.enable = true;
     hyprland = {
