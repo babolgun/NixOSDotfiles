@@ -24,7 +24,6 @@
     lolcat 
     lsd 
     lshw
-    lunarvim 
     material-icons 
     meson 
     neofetch 

@@ -5,7 +5,7 @@ in {
   # Install Packages For the User
   # Omitted: discord(chat), transmission-gtk(bit-torrent), obs-studio(videorecording), protonup-qt, spotify
   home.packages = with pkgs; [     
-    "${browser}" 
+    pkgs."${browser}"
     audacity 
     dotnet-runtime_7 
     font-awesome 
@@ -15,6 +15,7 @@ in {
     grim 
     imv 
     libvirt 
+    lunarvim 
     mpv 
     neovide 
     okular
@@ -28,7 +29,7 @@ in {
     swaynotificationcenter 
     tree 
     xfce.thunar 
-    # (nerdfonts.override { fonts = ["JetBrainsMono"]; })
+    (nerdfonts.override { fonts = ["JetBrainsMono"]; })
     # Import scripts
     (import ./../scripts/emopicker9000.nix { inherit pkgs; })
     (import ./../scripts/task-waybar.nix { inherit pkgs; })
