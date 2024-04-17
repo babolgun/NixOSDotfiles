@@ -5,10 +5,11 @@ in {
   # Install Packages For the User
   # Omitted: discord(chat), transmission-gtk(bit-torrent), obs-studio(videorecording), protonup-qt, spotify
   home.packages = with pkgs; [     
-    pkgs."${browser}" libvirt swww grim slurp gnome.file-roller lunarvim
-    swaynotificationcenter rofi-wayland imv mpv gimp rustup xfce.thunar
-    audacity pavucontrol tree font-awesome swayidle neovide swaylock
-    git-credential-manager dotnet-runtime_7
+    pkgs."${browser}" libvirt swww grim slurp gnome.file-roller 
+    lunarvim swaynotificationcenter rofi-wayland imv mpv gimp 
+    rustup xfce.thunar audacity pavucontrol tree font-awesome 
+    swayidle neovide swaylock git-credential-manager okular
+    dotnet-runtime_7 
     (nerdfonts.override { fonts = ["JetBrainsMono"]; })
     # Import scripts
     (import ./../scripts/emopicker9000.nix { inherit pkgs; })
