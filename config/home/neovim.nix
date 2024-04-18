@@ -15,7 +15,7 @@ in {
       relativenumber = true; # Show relative line numbers
       shiftwidth = 2;        # Tab width should be 2
       softtabstop = 2;
-      smartindent = true;
+      smartindent = false;
       wrap = false;
       swapfile = false;
       backup = false;
@@ -107,7 +107,21 @@ in {
 	mapping = {
 	  "<CR>" = "cmp.mapping.confirm({ select = true })";
 	  "<Tab>" = {
-	    action = ''cmp.mapping.select_next_item()'';
+            action = ''
+              function(fallback)
+                if cmp.visible() then
+                  cmp.select_next_item()
+                elseif luasnip.expandable() then
+                  luasnip.expand()
+                elseif luasnip.expand_or_jumpable()
+                  luasnip.expand_or_jump()
+                elseif check_backspace() then
+                  fallback()
+                else
+                  fallback()
+                end
+              end
+            '';
 	    modes = [ "i" "s" ];
 	  };
 	};
