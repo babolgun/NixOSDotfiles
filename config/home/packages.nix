@@ -17,7 +17,8 @@ in {
     libvirt 
     lunarvim 
     mpv 
-    neovide 
+    neovim
+    nil
     okular
     pavucontrol 
     rofi-wayland 
