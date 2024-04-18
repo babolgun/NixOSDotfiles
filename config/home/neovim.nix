@@ -118,7 +118,7 @@ in {
 
     # FOR NEOVIDE
     extraConfigLua = '' 
-      vim.opt.guifont = "JetBrainsMono\\ NFM,Noto_Color_Emoji:h14"
+      vim.opt.guifont = "CaskaydiaCoveMono\\ NFM,Noto_Color_Emoji:h14"
       vim.g.neovide_cursor_animation_length = 0.05
 
       local colors = {
