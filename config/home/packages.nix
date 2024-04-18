@@ -15,9 +15,8 @@ in {
     grim 
     imv 
     libvirt 
-    lunarvim 
     mpv 
-    neovim
+    neovide
     nil
     okular
     pavucontrol 
