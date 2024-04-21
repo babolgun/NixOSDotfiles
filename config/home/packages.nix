@@ -6,13 +6,15 @@ in {
   # Omitted: discord(chat), transmission-gtk(bit-torrent), obs-studio(videorecording), protonup-qt, spotify
   home.packages = with pkgs; [     
     pkgs."${browser}"
-    audacity 
+    audacity
+    cascadia-code
     dotnet-runtime_7 
-    font-awesome 
+    font-awesome
+    ghc
     gimp 
     git-credential-manager 
     gnome.file-roller 
-    grim 
+    grim
     imv 
     libvirt 
     mpv 
