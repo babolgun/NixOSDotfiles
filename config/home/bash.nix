@@ -29,7 +29,8 @@ in lib.mkIf (theShell == "bash") {
       vi="neovide";
       svi="sudo neovide";
       ls="lsd";
-      ll="lsd -a";
+      la="lsd -a";
+      ll="lsd -l";
       lal="lsd -al";
       ".."="cd ..";
       # neofetch="neofetch --ascii ~/.config/ascii-neofetch";
