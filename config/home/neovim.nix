@@ -132,7 +132,7 @@ in {
 
     # FOR NEOVIDE
     extraConfigLua = '' 
-      vim.opt.guifont = "JetBrainsMono\\ NFM,Noto_Color_Emoji:h14"
+      vim.opt.guifont = "Cascadia Code,Noto_Color_Emoji:h14"
       vim.g.neovide_cursor_animation_length = 0.05
 
       local colors = {
@@ -144,7 +144,7 @@ in {
         violet = '#${theme.base0E}',
         grey   = '#${theme.base02}',
       }
-
+ 
       local bubbles_theme = {
         normal = {
           a = { fg = colors.black, bg = colors.violet },
@@ -196,7 +196,7 @@ in {
 
     extraConfigVim = ''
       set noshowmode
-      inoremap jj <ESC>
+      inoremap jk <ESC>
     '';
 
     keymaps = [
