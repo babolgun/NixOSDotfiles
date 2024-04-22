@@ -25,7 +25,8 @@ in {
     rofi-wayland 
     rustup 
     swww 
-    slurp 
+    slurp
+    steam-run
     swayidle 
     swaylock 
     swaynotificationcenter 
