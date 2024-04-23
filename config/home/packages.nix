@@ -10,13 +10,11 @@ in {
     cascadia-code
     dotnet-runtime_7 
     font-awesome
-    ghc
     gimp 
     git-credential-manager 
     gnome.file-roller 
     grim
     imv 
-    libvirt 
     mpv 
     neovide
     nil
@@ -26,7 +24,6 @@ in {
     rustup 
     swww 
     slurp
-    steam-run
     swayidle 
     swaylock 
     swaynotificationcenter 
