@@ -14,7 +14,8 @@ in {
     git-credential-manager 
     gnome.file-roller 
     grim
-    imv 
+    imv
+    maple-mono
     mpv 
     neovide
     nil

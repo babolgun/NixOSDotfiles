@@ -8,7 +8,7 @@ in lib.mkIf (wezterm == false && alacritty == false || kitty == true) {
   programs.kitty = {
     enable = true;
     package = pkgs.kitty;
-    font.name = "Cascadia Mono";
+    font.name = "Maple Mono";
     font.size = 12;
     settings = {
       scrollback_lines = 2000;

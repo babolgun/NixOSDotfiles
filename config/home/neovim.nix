@@ -100,7 +100,9 @@ in {
 	enable = true;
 	autoEnableSources = true;
 	sources = [
-	  { name = "nvim_lsp"; }
+	  { name = "nvim_lspconfig"; }
+	  { name = "nvim-lsp"; }
+	  { name = "nvim-cmp"; }
 	  { name = "path"; }
 	  { name = "buffer"; }
 	];
@@ -132,7 +134,7 @@ in {
 
     # FOR NEOVIDE
     extraConfigLua = '' 
-      vim.opt.guifont = "Cascadia Code,Noto_Color_Emoji:h14"
+      vim.opt.guifont = "Maple Mono,Noto_Color_Emoji:h14"
       vim.g.neovide_cursor_animation_length = 0.05
 
       local colors = {
