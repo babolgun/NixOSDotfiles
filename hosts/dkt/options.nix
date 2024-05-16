@@ -17,7 +17,7 @@ in {
   gitEmail = "l.babolgun@gmail.com";
 
   # Base16 theme
-  theme = "catppuccin-mocha";
+  theme = "ayu-mirage";
 
   # Hyprland settings ---------------------------------------------
   borderAnim = true; # Enable/Disable Hyprland Border Animation 

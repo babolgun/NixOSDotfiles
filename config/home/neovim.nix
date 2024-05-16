@@ -198,6 +198,7 @@ in {
 
     extraConfigVim = ''
       set noshowmode
+      set et
       inoremap jk <ESC>
     '';
 
